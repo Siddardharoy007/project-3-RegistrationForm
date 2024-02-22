@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3</title>
+    <style>
+    
+    label{
+        font-weight: bolder;
+        color:rgb(82, 171, 13);
+    }
+        form{
+            background-color: rgb(236, 206, 168);
+            
+            border:2px solid yellowgreen;
+            margin:50px 500px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        main{
+            margin-left: 60px;
+            padding:auto;
+        }
+        input[type="text"],input[type='tel'],
+        [type='email'],[type='password'],[type='date']{
+            border-radius: 20px;
+            border:2px solid yellowgreen;
+                height:30px;
+                width:300px;
+               
+        }
+        input[type="radio"],[type="checkbox"]{
+            border-radius: 20px;
+            border-color: yellowgreen;
+            font-weight:100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                height:30px;
+                width:35px;
+                
+        }
+        input[type="submit"]{
+            height:30px;
+            width:100px;
+            background-color: rgb(156, 89, 7);
+            color:rgb(250, 246, 246);
+            border-radius: 20px;
+            border:2px solid yellowgreen;
+            margin:5px 10px 10px 3px;
+           
+        }
+        input[type="reset"]{
+            height:30px;
+            width:100px;
+            background-color: rgb(156, 89, 7);
+            color:rgb(250, 246, 246);
+            border-radius: 20px;
+            margin:5px 10px 10px 90px;
+            border:2px solid yellowgreen;
+           
+        }
+        textarea{
+            border-radius: 20px;
+            border:2px solid yellowgreen;
+                height:100px;
+                width:300px;
+        }
+        select{
+            border-radius: 20px;
+            border:2px solid yellowgreen;
+                height:30px;
+                width:300px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <form aciton="#">
+    <h2>Registration Form</h2></center><br>
+    <main>
+    <label>Full Name</label><br>
+    <input type="text" name="name" ><br>
+    <label>Email</label><br>
+    <input type="email" name="email" ><br>
+    <label>password</label><br>
+    <input type="password" name="password" ><br>
+    <label>Contact Number</label><br>
+    <input type="tel" name="phno" ><br>
+    <label>DOB</label><br>
+    <input type="date" name="dob" ><br>
+    <label>Gender</label><br>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Other<br>
+    <label>Instituition name</label><br>
+    <input type="text" name="clgname"><br>
+    <label>Instituition type</label><br>
+    <select>
+        <option>Autonomous</option>
+        <option>Affiliated</option>
+    </select><br>
+    <label>Programming skills</label><br>
+    <input type="checkbox" name="skills">C
+    <input type="checkbox" name="skills">C++
+    <input type="checkbox" name="skills">C#
+    <input type="checkbox" name="skills">Java
+    <input type="checkbox" name="skills">Python
+    <input type="checkbox" name="skills">Javascript<br>
+    <label>Comments</label><br>
+    <textarea rows="5" cols="15"></textarea><br>
+    <input type="submit" value="Submit" >
+    <input type="reset" value="Reset" >
+</main>
+
+
+
+    </form>
+</body>
+</html>
